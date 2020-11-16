@@ -172,7 +172,7 @@
 			$( '.wc_cpdf_datepicker' ).each( function() {
 				$('.wc_cpdf_datepicker').datepicker({
 					defaultDate: '',
-					dateFormat: 'yy-mm-dd',
+					dateFormat: 'd MM yy',
 					numberOfMonths: 1,
 					showButtonPanel: true
 				});
